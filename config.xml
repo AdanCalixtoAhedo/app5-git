@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
-<widget.xmlns= "http://www.w3.org/ns/widgets"
+<widget xmlns= "http://www.w3.org/ns/widgets"
 xmlns:gap= "http://phonegap.com/ns/1.0"
 id = "com.phonegap.app5"
 version = "1.0.0">
 
-<name> app1 Advertencia del dispostivo 2018</name>
+<name>app5 Advertencias del dispositivo 2018</name>
 
 <description>
-Aplicacion que realiza la vibracion y beep del dispositivo
+Aplicacion que realiza la vibracion y beep del dispositivo 
 </description>
 
 <author href="https://build.phonegap.com" email="adancalixto42@gmail.com">
@@ -17,11 +17,11 @@ Adan Calixto Ahedo
 
 <!-- Personaliza la aplicacion y plataforma-->
 <preference name="orientation"     			value="default"/>
-<!-- <preference name="orientation"   			value="portrait" />
+<!-- <preference name="orientation"   		value="portrait" />
 <preference name="orientation"				value="landscape"/> -->
 <preference name="target-device"			value="universal" />
 <preference name="fullscreen"				value="true" />
-<preference name="android-installLocation"		value="auto" />
+<preference name="android-installLocation"	value="auto" />
 <preference name="permissions"				value="INTERNET" />
 
 <!--Plugins-->
@@ -30,7 +30,7 @@ Adan Calixto Ahedo
 <plugin name="cordova-plugin-vibration" spec="~2.1.3"/>
 <plugin name="cordova-plugin-dialogs" spec="~1.3.1"/>
 
-<!--plugin name=""cordova-plugin-geolocation" source="npm" />-->
+<!--<plugin name="cordova-plugin-geolocation" source="npm" />-->
 <!--Third party plugins -->
 
 <!--Colocar icono app-->
